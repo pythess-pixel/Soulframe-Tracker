@@ -7,9 +7,9 @@ This tool passively parses the game's `EE.log` file to track dynamic events, suc
 ## Features
 - **Real-Time Log Parsing**: Passively reads `EE.log` without interacting with the game's memory (TOS friendly).
 - **Arena Detection**: Visual and audio alerts when a procedural Arena (`/Layer8/Prefab7/`) spawns.
-- **Auto-Reset**: Automatically shows and hides the overlay when transitioning between the Hub and Dungeons.
+- **Auto-Reset**: Automatically resets the overlay status when transitioning between the Hub and Dungeons.
 - **Click-Through UI**: Semi-transparent, always-on-top overlay that does not block mouse clicks in-game.
-- **System Tray Support**: Hide or close the tracker quietly via the system tray.
+- **System Tray Support**: Close the tracker quietly via the system tray icon.
 - **Global Hotkey**: Press `Ctrl+Shift+Q` to quickly exit the tracker at any time.
 
 ## Usage
