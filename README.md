@@ -12,7 +12,7 @@ This tool passively parses the game's `EE.log` file to track dynamic events, suc
 
 ## Compiling from source (for beginners)
 
-If you want to build the `.exe` file yourself instead of downloading it, follow these simple steps:
+Follow these simple steps to build the `.exe` file yourself:
 
 1. **Install Python**: Download and install [Python](https://www.python.org/downloads/). During installation, make sure to check the box that says **"Add Python to PATH"**.
 2. **Download this code**: Click the green "Code" button at the top of this GitHub page and select "Download ZIP". Extract the folder to your computer.
