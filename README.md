@@ -4,14 +4,6 @@ A lightweight, non-intrusive, real-time overlay tracker for Soulframe.
 
 This tool passively parses the game's `EE.log` file to track dynamic events, such as when a procedural Arena spawns. It provides a simple click-through UI overlay that automatically resets when entering and exiting dungeons.
 
-## Features
-- **Real-Time Log Parsing**: Passively reads `EE.log` without interacting with the game's memory (TOS friendly).
-- **Arena Detection**: Visual and audio alerts when a procedural Arena (`/Layer8/Prefab7/`) spawns.
-- **Auto-Reset**: Automatically resets the overlay status when transitioning between the Hub and Dungeons.
-- **Click-Through UI**: Semi-transparent, always-on-top overlay that does not block mouse clicks in-game.
-- **System Tray Support**: Close the tracker quietly via the system tray icon.
-- **Global Hotkey**: Press `Ctrl+Shift+Q` to quickly exit the tracker at any time.
-
 ## Usage
 1. Run `monitor.py` or the compiled `SoulframeTracker.exe` before or during a Soulframe session.
 2. Enter a dungeon and the overlay will appear in the top-left corner.
